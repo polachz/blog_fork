@@ -37,6 +37,18 @@ HUpky supky...
 Tady pisu ja
 ### Muj sub nadpisek
 s textikem
+```cpp{numberLines: true}
+for(int x=1; x<10;x++){
+    print("%d",x);
+    print("Tisknem tiskem\n");
+}
+```
+
+```shell{promptUser: alice}{promptHost: dev.localhost}
+VAR_VAR='aaa'
+echo "$VAR_VAR"
+
+```
 
 Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
 

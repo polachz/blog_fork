@@ -43,7 +43,7 @@ const Expand = props => {
             :global(svg) {
               transition: all 0.5s;
               transform: rotateZ(180deg);
-              fill: ${theme.color.special.attention};
+              fill: yellow;
             }
 
             :global(.open) & :global(svg) {

@@ -1,28 +1,28 @@
 module.exports = {
-  siteTitle: "Atte Juvonen", // <title>
-  shortSiteTitle: "Atte Juvonen", // <title> ending for posts and pages
-  siteDescription: "Atte Juvonen",
-  siteUrl: "https://www.attejuvonen.fi",
+  siteTitle: "Zdenek Polach", // <title>
+  shortSiteTitle: "Zdenek Polach", // <title> ending for posts and pages
+  siteDescription: "Zdenek Polach",
+  siteUrl: "https://polach.me",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "Atte Juvonen",
+  authorName: "Zdenek Polach",
   authorTwitterAccount: "",
-  authorGithub: "https://github.com/baobabkoodaa",
-  authorStackoverflow: "https://stackexchange.com/users/5678032/atte-juvonen?tab=accounts",
-  authorLinkedin: "https://linkedin.com/in/atte-juvonen-86b886113",
-  authorCodeforces: "https://codeforces.com/profile/baobab",
-  authorYoutube: "https://www.youtube.com/channel/UCfHqfHoSYL0V_fXA_JQkeLw?view_as=subscriber",
+  authorGithub: "https://github.com/polachz",
+  authorStackoverflow: "https://stackexchange.com/users/19218704/zdenal?tab=accounts",
+  authorLinkedin: "https://https://www.linkedin.com/in/polachz/",
+  authorCodeforces: "",
+  authorYoutube: "https://www.youtube.com/channel/UCq47N-kHhDqU3JxQocNcmDw",
 
   /* header text */
-  headerTitle: "atte juvonen",
-  headerSubTitle: "ble",
+  headerTitle: "Zdenek Polach",
+  headerSubTitle: "",
 
   /* manifest.json */
-  manifestName: "Atte Juvonen",
-  manifestShortName: "atteJuvonen", // max 12 characters
+  manifestName: "Zdenek Polach",
+  manifestShortName: "polachz", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",

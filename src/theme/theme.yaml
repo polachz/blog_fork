@@ -39,6 +39,7 @@ size:
 color:
   # color options
   menu:
+    hover: red
     border: ghostwhite;
   neutral:
     white: &color-white '#ffffff'
@@ -57,7 +58,8 @@ color:
     black: '#000000'
   
   brand:
-    primary: &color-brand-primary '#000080' #'#E39E22' #'#07889B' #'#C0B283' #'#856084' #'#616247'
+    primary: &color-brand-primary '#CDB599FF' #'#000080' #'#E39E22' #'#07889B' #'#C0B283' #'#856084' #'#616247'
+    secc: red
     #primaryLight: '#f9ebd2'
     #primaryDark: '#B67A0E'
     #hover: &color-brand-hover '#C09F80' #'#E37222' #'#DCD0C0' #'#9f7a9d'
@@ -67,7 +69,7 @@ color:
     #dark: '#709425'
     #darkActive: '#709425'
   special:
-    attention: &color-special-attention '#8A2BE2' #'#E37222' #'#76323F' #'#E37222' #'#C0B283' #'#624761'
+    attention: &color-special-attention red #'#CDB599FF' #'#8A2BE2' #'#E37222' #'#76323F' #'#E37222' #'#C0B283' #'#624761'
 # FONT
 font:
   # font options
@@ -152,12 +154,12 @@ blog:
 header:
   color:
     background: &color-light-blue '#87cefa'
-    siteTitle: yellow
+    siteTitle: '#CDB599FF'
   avatar:
-    width: 46px
-    height: 46px
+    width: 36px
+    height: 36px
   height:
-    default: 60px
-    fixed: 60px
-    homepage: 60px
+    default: 50px
+    fixed: 50px
+    homepage: 50px
 
