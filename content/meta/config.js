@@ -18,7 +18,7 @@ module.exports = {
 
   /* header text */
   headerTitle: "atte juvonen",
-  headerSubTitle: "",
+  headerSubTitle: "ble",
 
   /* manifest.json */
   manifestName: "Atte Juvonen",

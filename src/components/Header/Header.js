@@ -65,7 +65,7 @@ class Header extends React.Component {
             padding-bottom: 0px !important;
             align-items: center;
             justify-content: center;
-            background-color: ${theme.color.neutral.white};
+            background-color: ${theme.header.color.background};
             display: flex;
             height: ${theme.header.height.default};
             position: relative;
@@ -106,7 +106,7 @@ class Header extends React.Component {
 
           .logo {
             border-radius: ${theme.size.radius.small};
-            border: 1px solid #eee;
+            #border: 1px solid #eee;
             display: inline-block;
             height: 44px;
             margin: ${theme.space.inline.default};
@@ -167,7 +167,7 @@ class Header extends React.Component {
           @from-width desktop {
             .header {
               align-items: center;
-              background-color: ${theme.color.neutral.white};
+              background-color: ${theme.header.color.background};
               display: flex;
               position: absolute;
               top: 0;
@@ -178,7 +178,7 @@ class Header extends React.Component {
 
               &.fixed {
                 height: ${theme.header.height.fixed};
-                background-color: ${theme.color.neutral.white};
+                background-color: ${theme.header.color.background};
                 left: 0;
                 padding: 0 ${theme.space.m};
                 position: fixed;
@@ -188,6 +188,7 @@ class Header extends React.Component {
 
                 h1 {
                   margin: ${theme.space.stack.xxs};
+                  color: ${theme.header.color.siteTitle};
                 }
 
                 h2 {
@@ -217,8 +218,8 @@ class Header extends React.Component {
               margin: ${theme.space.inline.default};
 
               .fixed & {
-                height: 36px;
-                width: 36px;
+                height: ${theme.header.avatar.height};
+                width: ${theme.header.avatar.width};
               }
 
               .header.homepage:not(.fixed) & {
