@@ -65,6 +65,11 @@ const FollowPage = props => {
                     .subText {
                       color: ${theme.color.brand.primary};
                     }
+                    .subIcon {
+                      :global(svg) {
+                        fill: ${theme.color.brand.primary};
+                      }
+                    }
                   }
                 }
               
@@ -79,7 +84,7 @@ const FollowPage = props => {
                     font-size: 40px;
                     padding-right: 10px;
                     :global(svg) {
-                      fill: ${theme.color.brand.primary};
+                      fill: ${theme.color.neutral.gray.j};
                     }
                 }
               `}</style>

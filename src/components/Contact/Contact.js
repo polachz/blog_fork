@@ -173,11 +173,11 @@ class Contact extends React.Component {
                   font-weight: 400;
                   padding: 0.5em 3em;
                   border-radius: 5px;
-                  background: ${theme.color.brand.primary};
-                  border: 1px solid ${theme.color.brand.primary};
+                  background: ${theme.color.neutral.gray.j};
+                  border: 1px solid ${theme.color.neutral.gray.j};
                 }
                 #submitButton:hover {
-                  background: ${theme.color.brand.primaryDark};
+                  background: ${theme.color.special.attention};
                   cursor: pointer;
                 }
               `}</style>
