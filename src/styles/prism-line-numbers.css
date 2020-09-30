@@ -1,6 +1,7 @@
+  
 pre[class*="language-"].line-numbers {
 	position: relative;
-	padding-left: 3.8em;
+	padding-left: 4.8em;
 	counter-reset: linenumber;
 }
 
@@ -12,7 +13,7 @@ pre[class*="language-"].line-numbers > code {
 .line-numbers .line-numbers-rows {
 	position: absolute;
 	pointer-events: none;
-	top: 0;
+	top: 1em;
 	font-size: 100%;
 	left: -3.8em;
 	width: 3em; /* works for line-numbers below 1000 lines */
@@ -36,5 +37,6 @@ pre[class*="language-"].line-numbers > code {
 			color: #999;
 			display: block;
 			padding-right: 0.8em;
+			padding-left: 0.7em;
 			text-align: right;
 		}

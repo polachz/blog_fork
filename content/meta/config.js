@@ -12,7 +12,7 @@ module.exports = {
   authorTwitterAccount: "",
   authorGithub: "https://github.com/polachz",
   authorStackoverflow: "https://stackexchange.com/users/19218704/zdenal?tab=accounts",
-  authorLinkedin: "https://https://www.linkedin.com/in/polachz/",
+  authorLinkedin: "https://www.linkedin.com/in/polachz/",
   authorCodeforces: "",
   authorYoutube: "https://www.youtube.com/channel/UCq47N-kHhDqU3JxQocNcmDw",
 
