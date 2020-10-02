@@ -124,6 +124,28 @@ module.exports = {
             }
           },
           {
+            resolve: `gatsby-remark-image-attributes`,
+            options: {
+  
+              // ?Array<String> | Boolean
+              //   Any names declared here are added
+              //   to the default set of attributes
+              //   which the plugin will use to style
+              //   the image.
+              //   If this is set to true, all CSS
+              //   property names will be recognized
+              //   as styleAttribute.
+              styleAttributes: true,
+  
+              // ?Boolean
+              //   If true, all attributes that
+              //   aren't styleAttributes, will be
+              //   added as data-* attributes to the
+              //   image.
+              dataAttributes: true
+            }
+          },
+          {
             resolve: `gatsby-remark-rehype-images`,
             options: {
               tag: 're-img',
